@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { CamelPipe } from './camel-pipe';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CamelPipe
   ],
   imports: [
     BrowserModule
